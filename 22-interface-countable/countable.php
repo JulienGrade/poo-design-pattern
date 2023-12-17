@@ -39,9 +39,9 @@ class MappedIteratorDemo implements Iterator, Countable
 }
 
 $mappedArray = [
-    'name' => 'Gary',
-    'location' => 'London, UK',
-    'role' => 'Software Developer'
+    'name' => 'John',
+    'location' => 'Lille, FR',
+    'role' => 'Développeur'
 ];
 
 $mappedIteratorDemo = new MappedIteratorDemo($mappedArray);
@@ -51,4 +51,4 @@ foreach ($mappedIteratorDemo as $item => $value) {
     print "$item: $value" . PHP_EOL;
 }
 
-print count($mappedIteratorDemo) . PHP_EOL; // Countable
+print count($mappedIteratorDemo) . PHP_EOL;
