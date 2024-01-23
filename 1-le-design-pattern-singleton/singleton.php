@@ -7,4 +7,4 @@ $connection = Connection::getInstance();
 $connection2 = Connection::getInstance();
 $connection3 = Connection::getInstance();
 
-dd($connection === $connection2);
+var_dump($connection === $connection2);
